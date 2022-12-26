@@ -17,26 +17,51 @@
 <body>
 
   <!-- Rating state start -->
+  <article class="rating-state">
 
-  How did we do?
+    <div class="star-wrapper">
+      <img src="./images/icon-star.svg" alt="star icon">
+    </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+    <h2>How did we do?</h2>
+  
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p> 
+  
+    <form id="form" action="/" method="GET">
+      <div class="rating-wrapper">
+        <label for="rating-1"><input type="checkbox" name="1" id="rating-1"/>1</label>
+        <label for="rating-2"><input type="checkbox" name="2" id="rating-2"/>2</label>
+        <label for="rating-3"><input type="checkbox" name="3" id="rating-3"/>3</label>
+        <label for="rating-4"><input type="checkbox" name="4" id="rating-4"/>4</label>
+        <label for="rating-5"><input type="checkbox" name="5" id="rating-5"/>5</label>
+      </div>
+    </form>
+    
+    
+  
+    <button type="submit">Submit</button>
+  </article>
 
-  1 2 3 4 5
-
-  Submit
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
+  <div class="thank-you-state">
 
-  You selected <!-- Add rating here --> out of 5
+    <div class="img-wrapper">
+      <img src="images/illustration-thank-you.svg" alt="thank you image">
+    </div>
 
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+    <div class="rating-display-wrapper">
+      <h3>You selected <!-- Add rating here --><span class="rating-display"></span> out of 5</h3>
+    </div>
+  
+    <h1>Thank you!</h1>
+  
+   <p> We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+  </div>
 
   <!-- Thank you state end -->
 
