@@ -31,3 +31,7 @@ time, mark, audio, video {
   -moz-osx-font-smoothing: auto;
 }
 
+.thank-you-state {
+    display: none;
+}
+
